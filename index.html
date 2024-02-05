@@ -15,7 +15,7 @@
 </style>
 </head>
 <body>
-	<h1>Dummy Website</h1>
+	<h1>Dummy Website 1</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -51,17 +51,17 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://alukkasenterprisespvtltd--dev.sandbox.my.salesforce.com',
-			'https://alukkasenterprisespvtltd--dev.sandbox.my.salesforce-sites.com/',
+			'https://proseraanalyticspvtltd-d-dev-ed.my.salesforce.com',
+			'https://proseraanalyticspvtltd-d-dev-ed.my.site.com/JosSupport',
 			gslbBaseURL,
-			'00D0p0000000Swd',
-			'Jos_Alukkas_Web_Bot',
+			'00D5i0000089P7P',
+			'Jos_Alukkas_Bot',
 			{
-				baseLiveAgentContentURL: 'https://c.la1-c1cs-hn3.salesforceliveagent.com/content',
-				deploymentId: '572H10000008Oih',
-				buttonId: '573H10000008Oja',
-				baseLiveAgentURL: 'https://d.la1-c1cs-hn3.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IH10000004CV9MAM_18cc90c26da',
+				baseLiveAgentContentURL: 'https://c.la2-c2-hnd.salesforceliveagent.com/content',
+				deploymentId: '5725i0000000qUv',
+				buttonId: '5735i0000000rkI',
+				baseLiveAgentURL: 'https://d.la2-c2-hnd.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I5i000000kJyqEAE_18cca63fa99',
 				isOfflineSupportEnabled: false
 			}
 		);
@@ -69,7 +69,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://alukkasenterprisespvtltd--dev.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://proseraanalyticspvtltd-d-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
